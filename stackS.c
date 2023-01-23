@@ -43,9 +43,9 @@ element peek(void) {
 
 //스택의 원소를 출력하는 연산
 void printStack(void) {
-	int i;
+	int j;
 	printf("\n STACK[");
-	for (i = 0; i <= top; i++)		//이하니까 같은 수도 반복 시작,  top의 초기값은 -1
-		printf("%d ", stack[i]);
+	for (j = 0; j <= top; j++)		//이하니까 같은 수도 반복 시작,  top의 초기값은 -1
+		printf("%d ", stack[j]);
 	printf("] ");
 }
